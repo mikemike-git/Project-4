@@ -1,0 +1,17 @@
+$primary-color: #222222;
+$secondary-color: #ffffff;
+$accent-color: grey;
+$font-weight: ("regular":200, "medium":600, "bold": 900);
+@mixin centerAlign {
+display:block;
+margin:0 auto;
+}
+@function fontWeights($weight){
+@return map-get($font-weight, $weight);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}

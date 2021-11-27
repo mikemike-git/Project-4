@@ -1,0 +1,20 @@
+@import './config.scss';
+
+
+.container{
+    background-color: $primary-color;
+    .wrapper{
+        @include centerAlign();
+        width:80%;
+        &__inner{
+            background-color: $secondary-color;
+
+            &__para{
+                font-weight: fontWeights(bold);
+            }
+            &__para__two{
+                @extend .wrapper__inner__para
+            }
+        }
+    }
+}
