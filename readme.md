@@ -1,1 +1,1 @@
-repetition is the key
+repetition
