@@ -9,9 +9,10 @@ margin:0 auto;
 @function fontWeights($weight){
 @return map-get($font-weight, $weight);
 }
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    
 }
+

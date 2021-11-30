@@ -3,6 +3,7 @@
 
 .container{
     background-color: $primary-color;
+    height:100vh;
     .wrapper{
         @include centerAlign();
         width:80%;
